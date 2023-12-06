@@ -424,6 +424,25 @@ main .social-media{
     font-size: 1.1rem;
 }
 
+.resume{
+    text-decoration: none;
+    background-image: linear-gradient(to left,  #AE45FF,  #151252);
+    padding: 10px 15px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.resume a{
+    text-decoration: none;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 1rem;
+}
+.resume .fa-download{
+    color: #24cf7a;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
 
 /* events */
 

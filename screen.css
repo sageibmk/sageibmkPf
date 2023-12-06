@@ -123,7 +123,7 @@
 
 @media screen and (max-width: 450px){
     .hero{
-        height: 40vh;
+        height: 60vh;
     }
     .hero main{
         padding-top: 50px;
