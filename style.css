@@ -8,7 +8,7 @@
 }
 
 html, body{
-    overflow-x: hidden;
+    overflow-x:  hidden;
     text-rendering: optimizeSpeed;
     scroll-behavior: smooth;
     background-color: #FFFFFF;

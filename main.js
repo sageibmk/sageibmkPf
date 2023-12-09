@@ -1,5 +1,7 @@
 var btn = document.querySelector(".menu-btn");
 var hidden = document.querySelector(".nav-bar-respo");
+var navLink2 = document.querySelectorAll(".nav-link2");
+var navText = document.querySelector(".nav-font");
 var exitBtn = document.querySelector(".exit-btn");
 var darkMode = document.querySelector(".dark-mode");
 var fontColor = document.querySelectorAll(".dark-white");
@@ -25,6 +27,8 @@ darkMode.addEventListener("click", ()=> {
      darkMode.innerHTML = '<i class="fa-regular fa-sun"></i>';
      darkMode.style.color = "white";
      body.style.backgroundColor = "#0D0D0D";
+     hidden.style.backgroundColor = "#0D0D0D";
+     navText.style.color = "white";
      navBar.style.backgroundColor = "#0D0D0D";
      navLink.forEach((e) =>{
          e.style.color = "white";
@@ -39,11 +43,16 @@ darkMode.addEventListener("click", ()=> {
          e.style.backgroundColor = "#AE45FF";
          e.style.color = "#fff";
      });
+     navLink2.forEach((e) =>{
+         e.style.color = "#fff";
+     });
 
    } else{
       darkMode.innerHTML = ' <i class="fa-solid fa-moon"></i>';
       darkMode.style.color = "gold";
       body.style.backgroundColor = "initial";
+      hidden.style.backgroundColor = "#FFFFFF";
+      navText.style.color = "initial";
       navBar.style.backgroundColor = "#FFFFFF";
       navLink.forEach((e) =>{
          e.style.color = "initial";
@@ -57,6 +66,9 @@ darkMode.addEventListener("click", ()=> {
       socialLink.forEach((e) =>{
          e.style.backgroundColor = "initial";
          e.style.color = "initial";
+     });
+     navLink2.forEach((e) =>{
+      e.style.color = "initial";
      });
    };
 
@@ -77,7 +89,7 @@ window.addEventListener("scroll", ()=>{
 window.addEventListener("scroll", ()=>{
    var navBar = document.querySelector(".nav-bar");
    if (window.scrollY > 0) {
-       navBar.style.boxShadow = "-10px 0px 20px grey";
+       navBar.style.boxShadow = "-10px 0 20px grey";
    } else{
       navBar.style.boxShadow = "none";
    }
