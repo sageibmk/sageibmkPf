@@ -98,7 +98,7 @@ window.addEventListener("scroll", ()=>{
 // type js
 
 var typed = new Typed (".auto-type", {
-   strings: ["I'm Obinna Agboeze.", "FrontEnd Developer.", "Backend Developer."],
+   strings: ["I'm Kelvin Okeke.", "FrontEnd Developer.", "Backend Developer."],
    typeSpeed: 150,
    backSpeed: 150,
    loop: true

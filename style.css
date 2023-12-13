@@ -103,7 +103,7 @@ main .sec-head-p{
 main .social-media{
     display: flex;
     gap: 15px;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 .social-links{
    display: flex;
