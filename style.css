@@ -456,7 +456,7 @@ main .social-media{
 
 
 #preloader{
-    background: #FFFFFF url(loader.gif) no-repeat center center;
+    background: #FFFFFF url('images/loader.gif') no-repeat center center;
     height: 100vh;
     width: 100%;
     position: fixed;
